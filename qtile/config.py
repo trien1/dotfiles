@@ -230,7 +230,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
-# ooofdsdsh
+
 screens = [
     Screen(
         top=bar.Bar(
