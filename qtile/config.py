@@ -31,6 +31,8 @@ from libqtile.utils import guess_terminal
 
 mod = "mod4"
 terminal = "urxvt"
+clickable_icons_color = "#665c54"
+
 
 import os
 import subprocess
@@ -230,7 +232,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
-
+# jdhsahdhsudh
 screens = [
     Screen(
         top=bar.Bar(
@@ -272,7 +274,7 @@ screens = [
                     "",
                     fontsize=25,
                     padding=10,
-                    foreground='#928374',
+                    foreground=clickable_icons_color,
                     mouse_callbacks = {'Button1': lazy.spawn("github-desktop")}
                 ),
                 widget.TextBox(
@@ -280,7 +282,7 @@ screens = [
                     "",
                     fontsize=27,
                     padding=10,
-                    foreground='#928374',
+                    foreground=clickable_icons_color,
                     mouse_callbacks = {'Button1': lazy.spawn("thunar")}
                 ),
                 widget.TextBox(
@@ -288,7 +290,7 @@ screens = [
                     "",
                     fontsize=18,
                     padding=10,
-                    foreground='#928374',
+                    foreground=clickable_icons_color,
                     mouse_callbacks = {'Button1': lazy.spawn("urxvt -e musikcube")}
                 ),
                 widget.TextBox(
@@ -296,7 +298,7 @@ screens = [
                     "爵",
                     fontsize=23,
                     padding=8,
-                    foreground='#928374',
+                foreground=clickable_icons_color,
                     mouse_callbacks = {'Button1': lazy.spawn("brave")}
                 ),
                 widget.Sep(
