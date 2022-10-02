@@ -230,6 +230,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+# test
 screens = [
     Screen(
         top=bar.Bar(
