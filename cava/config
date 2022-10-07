@@ -17,7 +17,7 @@ framerate = 65
 
 # Manual sensitivity in %. If autosens is enabled, this will only be the initial value.
 # 200 means double height. Accepts only non-negative values.
-; sensitivity = 100
+sensitivity = 50
 
 # The number of bars (0-200). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
@@ -178,7 +178,7 @@ gradient_color_3 = '#7c6f64'
 
 # In bar height, bars that would have been lower that this will not be drawn.
 # DEPRECATED as of 0.8.0
-; ignore = 0
+; ignore = 500
 
 # Noise reduction, float 0 - 1. default 0.77
 # the raw visualization is very noisy, this factor adjusts the integral and gravity filters to keep the signal smooth
