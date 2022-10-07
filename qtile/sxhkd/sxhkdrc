@@ -77,8 +77,8 @@ super + ctrl + c
     killall conky
 
 #Htop
-#super + h
-#    urxvt 'htop task manager' -e htop
+super + h
+    urxvt 'htop task manager' -e htop
 
 #archlinux-logout
 super + x
