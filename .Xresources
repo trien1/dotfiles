@@ -89,6 +89,7 @@ URxvt.imFont:               	xft:MesloLGS NF:regular:size=11
 URxvt.italicFont:           	xft:MesloLGS NF:italic:size=11
 URxvt.boldFont:             	xft:MesloLGS NF:bold:size=11
 URxvt.boldItalicFont:     		xft:MesloLGS NF:regular:size=11
+
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions

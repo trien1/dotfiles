@@ -102,7 +102,7 @@ super + m
 
 #launch terminal
 super + Return
-    urxvt
+    termite
 
 #Xkill
 super + Escape
