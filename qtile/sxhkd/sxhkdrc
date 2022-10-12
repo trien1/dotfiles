@@ -38,7 +38,7 @@ super + F7
 
 #Thunar
 super + F8
-    thunar
+   thunar
 
 #Evolution
 super + F9
@@ -102,7 +102,7 @@ super + m
 
 #launch terminal
 super + Return
-    termite
+    urxvt 
 
 #Xkill
 super + Escape
@@ -128,7 +128,7 @@ super + b
 
 #File-Manager
 super + shift + Return
-	thunar
+	pcmanfm	
 
 #Keyboard dependent
 #File-Manager

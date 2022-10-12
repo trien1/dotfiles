@@ -252,7 +252,7 @@ screens = [
                 widget.GroupBox(
                     highlight_method="text",
                     this_current_screen_border='#928374',
-                    fontsize=11,
+                    fontsize=16,
                     ),
                 widget.Spacer(),
                 #widget.Prompt(),
