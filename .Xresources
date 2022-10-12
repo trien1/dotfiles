@@ -45,7 +45,8 @@ URxvt.colorUL:      	 #87afd7
 
 ! special
 ! hard contrast: *background: #1d2021
-*background: #282828
+! URxvt.background: #282828
+URxvt.background: rgba:2828/2828/2828/dddd
 ! soft contrast: *background: #32302f
 *foreground: #ebdbb2
 ! Black + DarkGrey
