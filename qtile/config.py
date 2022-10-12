@@ -152,7 +152,8 @@ groups = []
 
 group_names = ["1", "2", "3", "4",]
 
-group_labels = ["", "", "", "",]
+#group_labels = ["","ﭮ","","爵"]
+group_labels = ["", "", "", "",]
 
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "treetab", "floating",]
 
@@ -252,8 +253,8 @@ screens = [
                 widget.GroupBox(
                     highlight_method="text",
                     this_current_screen_border='#928374',
-                    padding_x=2,
-                    fontsize=16
+                    padding_x=3,
+                    fontsize=17,
                     ),
                 widget.Spacer(),
                 #widget.Prompt(),
