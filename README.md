@@ -2,4 +2,3 @@
 
 my dotfiles!
 (will add an installation script soon)
-test
