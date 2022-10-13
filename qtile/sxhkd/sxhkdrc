@@ -102,7 +102,7 @@ super + m
 
 #launch terminal
 super + Return
-    urxvt 
+    st 
 
 #Xkill
 super + Escape
