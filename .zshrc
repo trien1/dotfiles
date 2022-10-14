@@ -175,6 +175,7 @@ alias pipes='pipes.sh'
 #adds the files and commits it and then pushs it to the repository
 alias acp='git add . && git commit -m "changes" && git push'
 
+#cd into dotfiles directory
 alias .="cd ~/dotfiles"
 
 #create a file called .zshrc-personal and put all your personal aliases
