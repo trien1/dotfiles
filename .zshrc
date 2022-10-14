@@ -157,17 +157,11 @@ alias s='subl'
 #neofetch
 alias nf='neofetch'
 
-#cd into github directory
-alias cd-git="cd ~/stuff/github"
-
 #nvim
 alias v='nvim'
 
 #musikcube
 alias m='musikcube'
-
-#cd into dotfiles directory
-alias dots='cd ~/dotfiles'
 
 #pipes.sh
 alias pipes='pipes.sh'
@@ -176,7 +170,11 @@ alias pipes='pipes.sh'
 alias acp='git add . && git commit -m "changes" && git push'
 
 #cd into dotfiles directory
-alias .="cd ~/dotfiles"
+alias .='cd ~/dotfiles'
+
+#sxiv + devour
+alias sxiv='devour sxiv'
+
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.

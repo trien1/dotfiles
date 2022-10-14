@@ -252,7 +252,7 @@ screens = [
                 # widget.Spacer(),
                 widget.GroupBox(
                     highlight_method="text",
-                    this_current_screen_border='#928374',
+                    this_current_screen_border='#a89984',
                     padding_x=3,
                     fontsize=17,
                     ),
