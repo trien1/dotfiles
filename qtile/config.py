@@ -217,7 +217,7 @@ layouts = [
     #layout.Stack(num_stacks=2),
     #layout.Bsp(border_focus="#282828",border_normal="#1d2021",border_width=0, margin=8),
     # layout.Matrix(),
-    layout.MonadTall(border_focus="#fabd2f",border_normal="#282828",border_width=3, margin=7),
+    layout.MonadTall(border_focus="#fabd2f",border_normal="#282828",border_width=3, margin=12),
     #layout.MonadWide(),
     #layout.RatioTile(),
     #layout.Tile(),

@@ -128,7 +128,7 @@ super + b
 
 #File-Manager
 super + shift + Return
-	pcmanfm	
+	st -e ranger	
 
 #Keyboard dependent
 #File-Manager
