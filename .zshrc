@@ -172,8 +172,10 @@ alias dots='cd ~/dotfiles'
 #pipes.sh
 alias pipes='pipes.sh'
 
-#git add . && git commit -m "changes" && git push
-alias a='git add . && git commit -m "changes" && git push'
+#adds the files and commits it and then pushs it to the repository
+alias acp='git add . && git commit -m "changes" && git push'
+
+alias .="cd ~/dotfiles"
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
