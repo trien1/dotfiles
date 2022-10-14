@@ -268,9 +268,20 @@ screens = [
                 #widget.TextBox("default config", name="default"),
                 #widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
                 #idget.Systray(),
-                #widget.Clock(format="%I:%M %p",
-                #             foreground='#CDD6F4',
-                #            ),
+                widget.TextBox(
+                    "",
+                    fontsize = 23,
+                    foreground='#928374',
+                    ),
+                widget.Clock(format="%I:%M %p",
+                            foreground='#928374',
+                            fontsize = 12,
+                           ),
+                widget.Sep(
+                    linewidth = 0,
+                    padding = 10,
+
+                ),
                 #widget.QuickExit(),
                 # widget.TextBox(
                 #     #"",
