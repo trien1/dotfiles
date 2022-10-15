@@ -28,7 +28,6 @@ if [ $keybLayout = "be" ]; then
 fi
 
 #autostart ArcoLinux Welcome App
-run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop &
 
 #Some ways to set your wallpaper besides variety or nitrogen
 #feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
@@ -49,7 +48,7 @@ run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 run xfce4-power-manager &
 #numlockx on &
 #blueberry-tray &
-#picom --config $HOME/dotfiles/picom/picom.conf &
+picom --config $HOME/dotfiles/picom/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
