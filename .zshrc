@@ -187,7 +187,7 @@ alias d='devour'
 
 
 # reporting tools - install when not installed
-neofetch
+#neofetch
 #screenfetch | lolcat
 #alsi
 #paleofetch
@@ -200,7 +200,9 @@ neofetch
 #sysinfo
 #sysinfo-retro
 #cpufetch
-#colorscript random
+# colorscript exec zwaves
+colorscript exec panes
+# colorscript random
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
