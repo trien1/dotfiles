@@ -178,6 +178,13 @@ alias sxiv='devour sxiv'
 #devour
 alias d='devour'
 
+#use the small fetch script for neofetch
+alias nftosmall='cat ~/.config/neofetch/small-config.conf > ~/.config/neofetch/config.conf'
+
+#use the normal fetch script for neofetch
+alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch/config.conf'
+
+
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
