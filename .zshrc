@@ -23,11 +23,11 @@ export ZSH=/usr/share/oh-my-zsh/
 
 
 #ZSH_THEME="random"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
 #ZSH_THEME="agnoster"
-
-
-
+#ZSH_THEME="pure"
+#ZSH_THEME="pure/pure"
+ZSH_THEME="spaceship"
 
 
 
@@ -223,4 +223,3 @@ colorscript exec panes
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
