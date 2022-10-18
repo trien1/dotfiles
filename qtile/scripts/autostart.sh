@@ -56,6 +56,7 @@ run xfce4-power-manager &
 run volumeicon &
 #run discord &
 nitrogen --restore &
+run redshift
 #run caffeine -a &
 #run vivaldi-stable &
 #run firefox &
