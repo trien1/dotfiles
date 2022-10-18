@@ -213,7 +213,7 @@ alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript exec zwaves
-colorscript exec panes
+#colorscript exec panes
 #colorscript random
 #colorscript exec bars
 #colorscript exec illumina
@@ -230,3 +230,4 @@ colorscript exec panes
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 
 eval "$(starship init zsh)"
+
