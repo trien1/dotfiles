@@ -27,7 +27,7 @@ export ZSH=/usr/share/oh-my-zsh/
 #ZSH_THEME="agnoster"
 #ZSH_THEME="pure"
 #ZSH_THEME="pure/pure"
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
 
 
 
@@ -185,6 +185,11 @@ alias nftosmall='cat ~/.config/neofetch/small-config.conf > ~/.config/neofetch/c
 alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch/config.conf'
 
 
+
+# spaceship configureation
+
+
+
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
@@ -223,3 +228,5 @@ colorscript exec panes
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+
+eval "$(starship init zsh)"
