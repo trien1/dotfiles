@@ -1,0 +1,10 @@
+[python]
+symbol = " "
+pyenv_version_name = false
+version_format = "v${raw}"
+
+[git_branch]
+symbol = " "
+truncation_length = 4
+truncation_symbol = ""
+
