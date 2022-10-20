@@ -66,3 +66,4 @@ run redshift
 #run spotify &
 #run atom &
 #run telegram-desktop &
+run xset r rate 260 
