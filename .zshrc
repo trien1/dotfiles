@@ -184,7 +184,8 @@ alias nftosmall='cat ~/.config/neofetch/small-config.conf > ~/.config/neofetch/c
 #use the normal fetch script for neofetch
 alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch/config.conf'
 
-
+#run sudo as 'sudo -S'
+alias sudo='sudo -S'
 
 # spaceship configureation
 
@@ -218,6 +219,9 @@ alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch
 colorscript exec bars
 #colorscript exec illumina
 
+
+### exported paths
+export WINEPREFIX="/home/$USER/.wine"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

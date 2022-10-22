@@ -76,7 +76,7 @@ super + ctrl + c
 
 #Htop
 super + h
-    urxvt 'htop task manager' -e htop
+  st -e htop
 
 #archlinux-logout
 super + x
