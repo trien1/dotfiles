@@ -215,7 +215,7 @@ alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch
 #colorscript exec zwaves
 #colorscript exec panes
 #colorscript random
-#colorscript exec bars
+colorscript exec bars
 #colorscript exec illumina
 
 

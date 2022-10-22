@@ -324,6 +324,8 @@ alias tips="lbrynet txo spend --type=support --is_not_my_input --blocking"
 # Mocp must be launched with bash instead of Fish!
 alias mocp="bash -c mocp"
 
+alias countryfetch="~/.local/bin/countryfetch"
+
 ### DTOS ###
 # Copy/paste all content of /etc/dtos over to home folder. A backup of config is created. (Be careful running this!)
 alias dtoscopy='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/dtos/* ~'
@@ -334,7 +336,6 @@ alias dtosbackup='cp -Rf /etc/dtos ~/dtos-backup-(date +%Y.%m.%d-%H.%M.%S)'
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
 neofetch
-
 
 ### SETTING THE STARSHIP PROMPT ###
 #starship init fish | source
