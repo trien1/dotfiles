@@ -17,9 +17,3 @@ ln -s starship ~/.config/
 
 yay -S qtile rofi cava fish neofetch nitrogen neovim ranger starship sxhkd make
 
-cd ~/.config/dwm
-make
-sudo make install
-cd ../st
-make
-sudo make install
