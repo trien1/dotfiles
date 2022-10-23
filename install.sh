@@ -15,7 +15,7 @@ ln -s starship ~/.config/
 
 
 
-yay -S qtile rofi cava fish neofetch nitrogen neovim picom-ibhagwan-git ranger starship sxhkd make
+yay -S qtile rofi cava fish neofetch nitrogen neovim ranger starship sxhkd make
 
 cd ~/.config/dwm
 make
