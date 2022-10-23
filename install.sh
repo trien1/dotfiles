@@ -1,8 +1,20 @@
 mkdir ~/.config/
-ln -s * ~/.config/
-rm -rf ~/.config/.gitattributes ~/.config/.git ~/.config/install.sh ~/.config/README.md ~/.config/.zshrc .Xresources
-ln -s .zshrc ~/
-ln -s .Xresources ~/
+
+ln -s dwm ~/.config
+ln -s qtile ~/qtile
+ln -s cava ~/.config
+ln -s nitrogen ~/.config
+ln -s nvim ~/.config
+ln -s st ~/.config
+ln -s rofi ~/.config
+ln -s picom ~/.config
+ln -s neofetch ~/.config
+ln -s fish ~/.config
+ln -s ranger ~/.config
+ln -s starship ~/.config/
+
+
+
 yay -S qtile rofi cava fish neofetch nitrogen neovim picom-ibhagwan-git ranger starship sxhkd make
 
 cd ~/.config/dwm
