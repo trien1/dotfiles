@@ -215,15 +215,15 @@ layouts = [
     #layout.Max(),
     # Try more layouts by unleashing below layouts.
     #layout.Stack(num_stacks=2),
-    #layout.Bsp(border_focus="#282828",border_normal="#1d2021",border_width=0, margin=8),
-    # layout.Matrix(),
-    layout.MonadTall(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=6),
-    #layout.MonadWide(),
-    #layout.RatioTile(),
-    #layout.Tile(),
-    #layout.TreeTab(),
-    #layout.VerticalTile(),
-    #layout.Zoomy(),
+    #layout.Bsp(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=8),
+    #layout.Matrix(border_focus="#d5c4a1",border_normal="282828",border_width=3,margin=8),
+    layout.MonadTall(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
+    #layout.MonadWide(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
+    #layout.RatioTile(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
+    #layout.Tile(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
+    #layout.TreeTab(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
+    #layout.VerticalTile(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
+    #layout.Zoomy(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
 ]
 
 widget_defaults = dict(
