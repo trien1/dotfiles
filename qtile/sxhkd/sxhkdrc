@@ -109,9 +109,9 @@ super + Escape
 super + KP_Enter
 	alacritty
 
-#sublime text
+#neovim
 super + s
-    subl
+    st -e nvim 
 
 #brave
 super + b

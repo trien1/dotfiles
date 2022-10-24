@@ -238,24 +238,28 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.TextBox(
-                    "",
-                    #"",
-                    #"",
-                    #"",
-                    fontsize=23,
-                    padding=10,
-                    foreground='#928374',
-                    #mouse_callbacks = {'Button1': lazy.spawn("clear")},
-                    disable_drag=False,
-                ),
+#                widget.TextBox(
+#                    "",
+#                    #"",
+#                    #"",
+#                    #"",
+#                    fontsize=23,
+#                    padding=10,
+#                    foreground='#928374',
+#                    #mouse_callbacks = {'Button1': lazy.spawn("clear")},
+#                    disable_drag=False,
+#                ),
                 #widget.CurrentLayout(),
-                # widget.Spacer(),
+                widget.Spacer(),
                 widget.GroupBox(
                     highlight_method="text",
                     this_current_screen_border='#a89984',
-                    padding_x=3,
-                    fontsize=17,
+                    padding_x=5,
+                    fontsize=19,
+                    ),
+                widget.Sep(
+                    padding = 60,
+                    linewidth = 0,
                     ),
                 widget.Spacer(),
                 #widget.Prompt(),

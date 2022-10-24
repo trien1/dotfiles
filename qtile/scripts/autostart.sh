@@ -56,7 +56,7 @@ picom --config $HOME/.config/picom/picom.conf &
 run volumeicon &
 #run discord &
 nitrogen --restore &
-run redshift
+run redshift &
 #run caffeine -a &
 #run vivaldi-stable &
 #run firefox &
@@ -66,4 +66,5 @@ run redshift
 #run spotify &
 #run atom &
 #run telegram-desktop &
-run xset r rate 260 
+run xset r rate 260 &
+run brightnessctl set 80% &
