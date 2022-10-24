@@ -208,7 +208,6 @@ alias sudo='sudo -S'
 #hfetch
 #sfetch
 #ufetch
-#ufetch-arco
 #pfetch
 #sysinfo
 #sysinfo-retro
@@ -216,8 +215,9 @@ alias sudo='sudo -S'
 #colorscript exec zwaves
 #colorscript exec panes
 #colorscript random
-colorscript exec bars
+colorscript exec bars | lolcat
 #colorscript exec illumina
+#colorscript exec spectrum
 
 
 ### exported paths

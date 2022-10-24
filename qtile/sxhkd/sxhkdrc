@@ -6,12 +6,10 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-#Set layout to us
-alt + 1
-	setxkbmap -layout us
+super + F1
+    setxkbmap -layout us
 
-#Set layout to ar
-alt + 2
+super + F2 
     setxkbmap -layout ar
 
 #Inkscape
