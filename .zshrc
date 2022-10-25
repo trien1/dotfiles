@@ -27,7 +27,8 @@ export ZSH=/usr/share/oh-my-zsh/
 #ZSH_THEME="agnoster"
 #ZSH_THEME="pure"
 #ZSH_THEME="pure/pure"
-# ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
+
 
 
 
@@ -215,7 +216,7 @@ alias sudo='sudo -S'
 #colorscript exec zwaves
 #colorscript exec panes
 #colorscript random
-colorscript exec bars | lolcat
+#colorscript exec bars | lolcat
 #colorscript exec illumina
 #colorscript exec spectrum
 
