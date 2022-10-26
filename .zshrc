@@ -212,13 +212,10 @@ alias sudo='sudo -S'
 #sysinfo-retro
 #cpufetch
 #colorscript exec zwaves
-<<<<<<< HEAD
 #colorscript exec panes
 #colorscript random
-=======
 #colorscript exec panes | lolcat
 #colorscript random | lolcat
->>>>>>> e73f08b (changes)
 #colorscript exec bars | lolcat
 #colorscript exec illumina
 #colorscript exec spectrum
