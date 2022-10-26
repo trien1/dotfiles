@@ -152,8 +152,6 @@ fi
 ### ALIASES ###
 
 
-#sublime text
-alias s='subl'
 
 #neofetch
 alias nf='neofetch'
@@ -214,11 +212,18 @@ alias sudo='sudo -S'
 #sysinfo-retro
 #cpufetch
 #colorscript exec zwaves
+<<<<<<< HEAD
 #colorscript exec panes
 #colorscript random
+=======
+#colorscript exec panes | lolcat
+#colorscript random | lolcat
+>>>>>>> e73f08b (changes)
 #colorscript exec bars | lolcat
 #colorscript exec illumina
 #colorscript exec spectrum
+#colorscript exec rails
+colorscript exec crunchbang-mini | lolcat
 
 
 ### exported paths
