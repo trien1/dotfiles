@@ -220,7 +220,7 @@ alias sudo='sudo -S'
 #colorscript exec illumina
 #colorscript exec spectrum
 #colorscript exec rails
-colorscript exec crunchbang-mini | lolcat
+#colorscript exec crunchbang-mini | lolcat
 
 
 ### exported paths
