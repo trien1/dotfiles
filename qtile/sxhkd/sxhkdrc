@@ -72,9 +72,6 @@ super + c
 super + ctrl + c
     killall conky
 
-#Htop
-super + h
-  st -e htop
 
 #archlinux-logout
 super + x

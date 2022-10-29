@@ -65,10 +65,10 @@ keys = [
     Key([mod], "space", lazy.next_layout()),
 
 # CHANGE FOCUS
-    Key([mod], "Up", lazy.layout.up()),
-    Key([mod], "Down", lazy.layout.down()),
-    Key([mod], "Left", lazy.layout.left()),
-    Key([mod], "Right", lazy.layout.right()),
+    Key([mod], "k", lazy.layout.up()),
+    Key([mod], "j", lazy.layout.down()),
+    Key([mod], "h", lazy.layout.left()),
+    Key([mod], "l", lazy.layout.right()),
     #Key([mod], "k", lazy.layout.up()),
     #Key([mod], "j", lazy.layout.down()),
     #Key([mod], "h", lazy.layout.left()),
@@ -215,7 +215,8 @@ layouts = [
     #layout.Max(),
     # Try more layouts by unleashing below layouts.
     #layout.Stack(num_stacks=2),
-    #layout.Bsp(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=8),
+    #layout.Matrix(border_focus="#d5c4a1",border_normal="282828",border_width=3,margin=8),
+    #layout.Bsp(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
     #layout.Matrix(border_focus="#d5c4a1",border_normal="282828",border_width=3,margin=8),
     layout.MonadTall(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=15),
     #layout.MonadWide(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
