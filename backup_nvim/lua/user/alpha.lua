@@ -27,7 +27,7 @@ local function footer()
 --	local handle = io.popen("fortune")
 --	local fortune = handle:read("*a")
 --	handle:close()
-  return "By trien"
+  return "I use Artix Linux btw"
 	-- return "chrisatmachine.com"
 end
 

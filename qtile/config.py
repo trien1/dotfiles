@@ -30,7 +30,7 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 mod = "mod4"
-terminal = "urxvt"
+terminal = "st"
 clickable_icons_color = "#928374"
 
 
@@ -56,7 +56,6 @@ keys = [
 
 # SUPER + SHIFT KEYS
 
-    Key([mod, "shift"], "q", lazy.window.kill()),
     Key([mod, "shift"], "r", lazy.restart()),
 
 
@@ -218,7 +217,7 @@ layouts = [
     #layout.Matrix(border_focus="#d5c4a1",border_normal="282828",border_width=3,margin=8),
     #layout.Bsp(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
     #layout.Matrix(border_focus="#d5c4a1",border_normal="282828",border_width=3,margin=8),
-    layout.MonadTall(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=15),
+    layout.MonadTall(border_focus="#d5c4a1",border_normal="#282828",border_width=4, margin=15),
     #layout.MonadWide(border_focus="#d5c4a1",border_normal="#282828",border_width=3, margin=9),
     #layout.RatioTile(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
     #layout.Tile(border_focus="#d5c4a1",border_normal="#282828",border_width=3,margin=9),
@@ -259,7 +258,7 @@ screens = [
                     fontsize=19,
                     ),
                 widget.Sep(
-                    padding = 60,
+                    padding = 50,
                     linewidth = 0,
                     ),
                 widget.Spacer(),

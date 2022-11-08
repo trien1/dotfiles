@@ -81,9 +81,6 @@ super + x
 super + r
     rofi -show drun
 
-#Urxvt
-super + t
-    urxvt
 
 #Pavucontrol
 super + v
@@ -96,6 +93,10 @@ super + m
 #launch terminal
 super + Return
     st 
+
+#Htop
+super + t 
+		st -e htop
 
 #Xkill
 super + Escape
@@ -114,7 +115,9 @@ super + s
 super + b
     brave
 
-
+#pacseek
+super + p
+	st -e pacseek
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
@@ -451,8 +454,8 @@ ctrl + alt + o
 #################################################################
 
 #kill
-#super + shift + q
-#    qtile-cmd -o window -f kill
+super + shift + q
+		pkill qtile
 
 #Quit Qtile
 #super + shift + x
@@ -516,4 +519,4 @@ super + control + s:
     flameshot gui
 
 
-s    
+    
