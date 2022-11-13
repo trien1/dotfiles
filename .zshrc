@@ -157,7 +157,7 @@ fi
 alias nf='neofetch'
 
 #nvim
-alias v='nvim'
+alias v='lvim'
 
 #musikcube
 alias m='musikcube'
@@ -183,8 +183,9 @@ alias nftosmall='cat ~/.config/neofetch/small-config.conf > ~/.config/neofetch/c
 #use the normal fetch script for neofetch
 alias nftonormal='cat ~/.config/neofetch/normal-config.conf > ~/.config/neofetch/config.conf'
 
-#run sudo as 'sudo -S'
-alias sudo='sudo -S'
+#clear
+alias cl='clear'
+
 
 # spaceship configureation
 

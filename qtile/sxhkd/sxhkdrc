@@ -109,7 +109,7 @@ super + KP_Enter
 
 #neovim
 super + s
-    st -e nvim 
+    st -e lvim 
 
 #brave
 super + b
