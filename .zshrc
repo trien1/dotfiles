@@ -93,7 +93,7 @@ export ZSH=/usr/share/oh-my-zsh/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -241,4 +241,3 @@ export WINEPREFIX="/home/$USER/.wine"
 eval "$(starship init zsh)"
 
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
