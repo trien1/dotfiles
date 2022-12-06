@@ -93,7 +93,7 @@ export ZSH=/usr/share/oh-my-zsh/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -157,7 +157,7 @@ fi
 alias nf='neofetch'
 
 #nvim
-alias v='lvim'
+alias v='nvim'
 
 #musikcube
 alias m='musikcube'

@@ -164,12 +164,16 @@ lvim.builtin.treesitter.highlight.enable = true
 --   },
 -- }
 
+
+-- additional plugins
 lvim.plugins = {
     {
       "folke/trouble.nvim",
       cmd = "TroubleToggle",
       "sainnhe/gruvbox-material",
       "simrat39/rust-tools.nvim",
+      "neoclide/coc.nvim",
+      "ThePrimeagen/vim-be-good",
     },
 }
 
@@ -188,7 +192,6 @@ lvim.plugins = {
 -- })
 
 -- Auto Commands --
-vim.cmd("set guicursor=a:ver100")
 
 
 
@@ -541,3 +544,6 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
     update_in_insert = false,
   }
 )
+
+
+vim.cmd("set relativenumber")

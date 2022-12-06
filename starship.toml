@@ -14,7 +14,7 @@ symbol = " "
 symbol = " "
 
 [directory]
-read_only = " "
+read_only = ""
 
 [docker_context]
 symbol = " "
@@ -81,4 +81,4 @@ symbol = " "
 
 [spack]
 symbol = "🅢 "
-isabled = true
+disabled = true

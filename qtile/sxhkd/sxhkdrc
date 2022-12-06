@@ -84,7 +84,7 @@ super + r
 
 #Pavucontrol
 super + v
-    pavucontrol
+    st -e alsamixer
 
 #Pragha
 super + m
@@ -109,7 +109,7 @@ super + KP_Enter
 
 #neovim
 super + s
-    st -e lvim 
+    st -e nvim 
 
 #brave
 super + b
